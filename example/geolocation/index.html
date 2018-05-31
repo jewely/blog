@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    if (!navigator.geolocation) {
+
+      document.write('浏览器不支持获取地理位置！');
+    } else {
+
+      // 支持返回地理位置信息
+      navigator.geolocation.getCurrentPosition(
+        (success) => {
+          alert(success)
+        }, (err) => {
+
+          switch (err.code) {
+            case err.TIMEOUT:
+              // 超时
+              break;
+            case err.PERMISSION_DENIED:
+              // 用户拒绝获取地理位置
+              break;
+            case err.POSITION_UNAVAILABLE:
+              // 位置不能确定
+              break;
+            default:
+          }
+
+          alert(err.message)
+        });
+
+      /* 
+          至于第三个参数options，支持三个子参数：
+ 
+          1. enableHighAccuracy，是否启用高精度定位，当然，启用之后会延长定位时间，默认为false;
+          2. timeout，超时时间，如果在规定的时间内没获取到地理位置，则触发onError并带上超时错误码。默认不限时长；
+          3. maximumAge，缓存时长，如果为0则不缓存获取到的位置每次都去获取最新，如果大于0则在缓存时间内不会再去进行定位而是返回缓存数据，默认为0。
+      */
+
+
+      // 实时获取位置变化
+      var watchId = navigator.geolocation.watchPosition((position) => {
+        alert('经度：' + position.coords.longitude + ' 纬度：' + position.coords.latitude);
+
+      });
+
+      // 主动关闭位置更新
+      function handlerClose() {
+        navigator.geolocation.clearWatch(watchId);
+      }
+    }
+  </script>
+</body>
+
+</html>
