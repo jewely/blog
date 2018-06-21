@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    dialog {
+      padding: 0;
+      border: 0;
+      border-radius: 0.6rem;
+      box-shadow: 0 0 1em black;
+    }
+
+    dialog::-webkit-backdrop {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    dialog::backdrop {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    dialog[open] {
+      display: block;
+      -webkit-animation: slide-up 0.4s ease-out;
+      animation: slide-up 0.4s ease-out;
+    }
+
+    .close {
+      position: absolute;
+      top: 0.2em;
+      right: 0.2em;
+      padding: 0.3em;
+      line-height: 0.6;
+      background-color: transparent;
+      border: 0;
+      font-size: 2em;
+    }
+
+    .modal-header,
+    .modal-body,
+    .modal-footer {
+      padding: 1em;
+    }
+
+    .modal-header {
+      margin: 0;
+      padding-bottom: 0.6em;
+      background-color: #ddedfd;
+      border-top-left-radius: 0.6rem;
+      border-top-right-radius: 0.6rem;
+      border-bottom: 1px solid #78a4d3;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #78a4d3;
+    }
+
+
+    button {
+      padding: 0.4em 1em 0.2em;
+      font-family: Glober, Helvetica, sans-serif;
+      cursor: pointer;
+    }
+
+    @-webkit-keyframes slide-up {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate(0, 15px);
+        transform: translate(0, 15px);
+      }
+      100% {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+    }
+
+    @keyframes slide-up {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate(0, 15px);
+        transform: translate(0, 15px);
+      }
+      100% {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <button id="open-modal" type="button">点我打开</button>
+
+  <dialog id="demo-modal">
+    <h3 class="modal-header">原生模式对话框</h3>
+    <div class="modal-body">
+      我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+    </div>
+    <footer class="modal-footer">
+      <button id="btn-cancel" type="button">取消</button>
+      <button id="btn-ok" type="button">确定</button>
+    </footer>
+    <button id="btn-close" class="close" type="button">&times;</button>
+
+  </dialog>
+  <p>
+    <code>返回值</code>:
+    <span id="return-value"></span>
+  </p>
+
+  <script>
+    const modal = document.getElementById('demo-modal');
+    const open = document.getElementById('open-modal');
+    const btnOk = document.getElementById('btn-ok');
+    const btnCancel = document.getElementById('btn-cancel');
+    const btnClose = document.getElementById('btn-close');
+    const returnSpan = document.getElementById('return-value');
+
+    open.addEventListener('click', () => {
+      modal.showModal();
+    });
+
+    btnOk.addEventListener('click', () => {
+      modal.close('btn-ok');
+    });
+
+    btnCancel.addEventListener('click', () => {
+      modal.close('btn-cancel');
+    });
+
+    btnClose.addEventListener('click', () => {
+      modal.close('cancelled');
+    })
+
+    modal.addEventListener('cancel', () => {
+      modal.close('cancelled');
+    });
+
+    // 点击遮罩区域关闭
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.close('cancelled');
+      }
+    });
+
+    // 显示返回值
+    modal.addEventListener('close', () => {
+      returnSpan.innerHTML = modal.returnValue;
+    });
+  </script>
+</body>
+
+</html>
