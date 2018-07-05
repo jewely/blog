@@ -1,56 +1,79 @@
+ > ## 前端重要知识点
 
-### PWA(Progressive Web Apps)
-- [Presentation API](https://w3c.github.io/presentation-api/)
-- [Service Workers Nightly](https://w3c.github.io/ServiceWorker/)
-- [Web App Manifest](https://w3c.github.io/manifest/)
-- [PWA (by Google Developers)](https://developers.google.com/web/progressive-web-apps/)
-- [PWA (by Alex Russell)](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/)
-- [AppCache](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Using_the_application_cache)
-- [Push Api](https://www.w3.org/TR/push-api/)
-- [Fetch Api](https://fetch.spec.whatwg.org/)
-- [Web Push Protocol](https://tools.ietf.org/html/draft-ietf-webpush-protocol-12)
-- [Notification](https://www.w3.org/TR/notifications/)
-- [Web App Manifest](https://w3c.github.io/manifest/)
-- [Web Worker](https://html.spec.whatwg.org/multipage/#dom-worker)
-- [Service Worker](https://www.w3.org/TR/service-workers/)
+- PWA(Progressive Web Apps)
+https://developers.google.com/web/progressive-web-apps/
+  - [Presentation API](https://w3c.github.io/presentation-api/)
+  - [Service Workers Nightly](https://w3c.github.io/ServiceWorker/)
+  - [Web App Manifest](https://w3c.github.io/manifest/)
+  - [PWA (by Google Developers)](https://developers.google.com/web/progressive-web-apps/)
+  - [PWA (by Alex Russell)](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/)
+  - [AppCache](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Using_the_application_cache)
+  - [Push Api](https://www.w3.org/TR/push-api/)
+  - [Fetch Api](https://fetch.spec.whatwg.org/)
+  - [Web Push Protocol](https://tools.ietf.org/html/draft-ietf-webpush-protocol-12)
+  - [Notification](https://www.w3.org/TR/notifications/)
+  - [Web App Manifest](https://w3c.github.io/manifest/)
+  - [Web Worker](https://html.spec.whatwg.org/multipage/#dom-worker)
+  - [Service Worker](https://www.w3.org/TR/service-workers/)
 
-### css-in-js
-- [CSS-in-JS Roundup: Styling React Components](https://alligator.io/react/css-in-js-roundup-styling-react-components/)
-- [styled-components](https://www.styled-components.com/docs)
+- css-in-js
+  - [CSS-in-JS Roundup: Styling React Components](https://alligator.io/react/css-in-js-roundup-styling-react-components/)
+  - [styled-components](https://www.styled-components.com/docs)
 
-### Grid Layout
-- [Grid by Example](https://gridbyexample.com/)
-- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- Grid Layout
+  - [Grid by Example](https://gridbyexample.com/)
+  - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-### Flexbox Layout
-- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- Flexbox Layout
+   - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-[IntersectionObserver API](http://www.ruanyifeng.com/blog/2016/11/intersectionobserver_api.html?user=fanerge)
+ - [IntersectionObserver API](http://www.ruanyifeng.com/blog/2016/11/intersectionobserver_api.html?user=fanerge)
 
-### 浏览器工作原理
-- [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
-- [浏览器的渲染原理简介](https://coolshell.cn/articles/9666.html)
-- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+- 浏览器工作原理
+  - [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
+  - [浏览器的渲染原理简介](https://coolshell.cn/articles/9666.html)
+  - [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 
-### Event Loop
-- [Event Loop](https://juejin.im/post/5ae083166fb9a07ab9792896)
-- [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
-- [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+- EventLoop
+  - [Event Loop](https://juejin.im/post/5ae083166fb9a07ab9792896)
+  - [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
+  - [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
 
-### 类型转换
-- [从 []==![] 为 true 来剖析 JavaScript 各种蛋疼的类型转换](https://github.com/jawil/blog/issues/1)
+- 类型转换
+  - [从 []==![] 为 true 来剖析 JavaScript 各种蛋疼的类型转换](https://github.com/jawil/blog/issues/1)
 
-### 原型、原型链
-- [浅谈 instanceof 和 typeof 的实现原理](https://juejin.im/post/5b0b9b9051882515773ae714)
+- 原型、原型链
+  - [浅谈 instanceof 和 typeof 的实现原理](https://juejin.im/post/5b0b9b9051882515773ae714)
 
-### 回流与重绘
-- [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.im/post/5a9923e9518825558251c96a)
+- 回流与重绘
+  - [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.im/post/5a9923e9518825558251c96a)
 
+- 执行上下文、函数堆栈
+  - [深入理解JavaScript执行上下文、函数堆栈、提升的概念](https://feclub.cn/post/content/ec_ecs_hosting)
+  - [What is the Execution Context & Stack in JavaScript?](http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/)
+
+[Geolocation API](https://alligator.io/js/geolocation-api/) 
+
+- 预加载
+  - [<link>标签实现预加载功能详解](https://juejin.im/post/5b2385f1e51d4558b80b10d1)
+
+
+- CSS层叠上下文  
+  - [CSS Stacking Context里那些鲜为人知的坑](http://blog.angular.in/css-stacking-contextli-na-xie-xian-wei-ren-zhi-de-keng/)
 
 [ecma-262](https://www.ecma-international.org/ecma-262/)
 [A free guide to \<head> elements](https://gethead.info/)
 
-### React技术栈
+### NodeJS 
+- Event Loop
+  - [The Node.js Event Loop, Timers, and process.nextTick()](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+  - [setImmediate() vs nextTick() vs setTimeout(fn,0) - in depth explanation](http://voidcanvas.com/setimmediate-vs-nexttick-vs-settimeout/)
+  - [Node.js event loop workflow & lifecycle in low level](http://voidcanvas.com/nodejs-event-loop/)
+
+- canvas
+  - [CANVAS——Draw on the Web](https://airingursb.gitbooks.io/canvas/)
+
+## React技术栈
 [awesome-react](https://github.com/enaqx/awesome-react)
 [React Router 中文文档](https://react-guide.github.io/react-router-cn/)
 [Redux 中文文档](http://cn.redux.js.org/index.html)
@@ -58,13 +81,42 @@
 [React-Native学习指南](https://github.com/reactnativecn/react-native-guide)
 
 
+[[译] 深入 React 高阶组件](https://mp.weixin.qq.com/s/dtlrOGTjoneOIiM5kB3XvQ)
+[Managing What’s in Your Head Using React Helmet](https://alligator.io/react/react-helmet/)
+[Using "window" the React Way with react-fns](https://alligator.io/react/declarative-html5-apis-react-fns/)
+
 ### Vue技术栈
+[官网](https://vuejs.org/)
+[VUE 2.0教程](https://vuefe.cn/v2/guide/)
+
+[Vue技术内幕](http://hcysun.me/vue-design/)
+[VUE组件汇总](https://juejin.im/post/5af16a2cf265da0b8636353b)
+[vuejsexamples](https://vuejsexamples.com/)
 
 
+### webpack
+[Webpack 4 配置最佳实践](https://juejin.im/post/5b304f1f51882574c72f19b0)
+[常用 webpack 配置统计结果](https://github.com/pigcan/blog/issues/5)
+[Webpack 构建性能优化探索](https://github.com/pigcan/blog/issues/1)
+### D3
+[d3indepth](http://d3indepth.com)
+
+### 周刊
+- [FEX周刊](http://fex.baidu.com/)
+- [奇舞周刊](https://weekly.75team.com/)
+- [javascript weekly](http://javascriptweekly.com/latest)
+- [nodejs weekly](https://nodeweekly.com/latest)
 
 [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
 [chrome-devtools](http://www.css88.com/doc/chrome-devtools/)
 
+[基于 webpack 的持久化缓存方案](https://github.com/pigcan/blog/issues/9)
+
+## Flutter
+[flutter-resources](https://github.com/awesome-tips/flutter-resources)
+
+[nuxtjs](https://zh.nuxtjs.org/)
+[MobX 中文文档](https://suprise.gitbooks.io/mobx-cn/content/)
 大牛博客：  
 
 阮一峰博客：www.ruanyifeng.com/blog/   
@@ -74,6 +126,7 @@
 前端博客：caibaojian.com/
 https://jakearchibald.com/
 
+[snandy](http://www.cnblogs.com/snandy/)
 
 前端社区：  
 
@@ -86,6 +139,32 @@ w3cplus：www.w3cplus.com/  
 爱思资源网：www.aseoe.com/  
 前端观察：www.qianduan.net/  
 前端开发俱乐部：www.html-js.cn/
+
+[Medium](https://medium.com/)
+[Hacker News](https://news.ycombinator.com/)
+[推酷](https://www.tuicool.com/mags)
+
+### ICON
+
+https://material.io/icons/
+http://icons8.com/material-icons/
+https://materialdesignicons.com
+https://www.materialpalette.com/icons
+http://materializecss.com/icons.html
+https://www.flaticon.com/packs/material-design
+https://github.com/Templarian/MaterialDesign
+https://dribbble.com/shots/1938275-Icons-Free-PSD
+http://materialdesignblog.com/free-master-set-of-material-design-icons/
+https://dribbble.com/shots/1932096-Material-Design-Powerpoint-Keynote-icons
+https://www.producthunt.com/posts/material-design-icons
+https://cdnjs.com/libraries/material-design-icons
+https://www.iconfinder.com/iconsets/google-material-design-icons
+
+
+### 设计
+
+[设计百宝箱](https://uirush.com/)
+[Dribbble](https://dribbble.com/)
 
 前端工具类汇总：  
 
@@ -102,11 +181,7 @@ github：github.com/   
 CSDN：www.csdn.net/   
 博客园：www.cnblogs.com/ 
 
-框架文章：
 
-VUE中文：vuejs.org.cn   
-VUE 2.0教程：vuefe.cn/v2/guide/   
-ReactJs中文教程：reactjs.cn/react/docs/…  
 
 菜鸟教程：
 www.runoob.com  
@@ -121,7 +196,7 @@ express中文网：www.expressjs.com.cn/
 less：less.bootcss.com/  
 sass：sass.bootcss.com/   
 coffeescript：coffee-script.org/  
-pugjs（也就是Jade）：github.com/pugjs/pug  
+pugjs（Jade）：github.com/pugjs/pug  
 babeljs：babeljs.cn/  
 grunt中文网：www.gruntjs.net/  
 gulp中文网：www.gulpjs.com.cn/  
