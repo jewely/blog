@@ -1,4 +1,4 @@
- > ## 前端重要知识点
+### 前端重要知识点
 
 - PWA(Progressive Web Apps)
 https://developers.google.com/web/progressive-web-apps/
@@ -60,8 +60,17 @@ https://developers.google.com/web/progressive-web-apps/
 
 - CSS层叠上下文  
   - [CSS Stacking Context里那些鲜为人知的坑](http://blog.angular.in/css-stacking-contextli-na-xie-xian-wei-ren-zhi-de-keng/)
-
-[ecma-262](https://www.ecma-international.org/ecma-262/)
+- ECMAScript各版本
+  - http://www.ecmascript.org/
+  - [w3c 中文版]()
+  - [ECMAScript 3 中文版 pdf]()
+  - [Mozilla es5.1（英）]()
+  - [ECMAScript 5.1 pdf（英）]()
+  - [ECMAScript 6 入门(阮一峰)]()
+  - [ecma-international ecma 262 5.1（英）](http://www.ecma-international.org/ecma-262/5.1/index.html)
+  - [ECMAScript® 2015 Language Specification（ES6英）](http://www.ecma-international.org/ecma-262/6.0/)
+  - [ECMAScript® 2016 Language Specification（ES7英）](http://www.ecma-international.org/ecma-262/7.0/index.html)
+  - [ECMAScript® 2017 Language Specification（ES8英）](http://www.ecma-international.org/ecma-262/8.0/index.html)
 [A free guide to \<head> elements](https://gethead.info/)
 
 ### NodeJS 
@@ -73,33 +82,34 @@ https://developers.google.com/web/progressive-web-apps/
 - canvas
   - [CANVAS——Draw on the Web](https://airingursb.gitbooks.io/canvas/)
 
-## React技术栈
-[awesome-react](https://github.com/enaqx/awesome-react)
-[React Router 中文文档](https://react-guide.github.io/react-router-cn/)
-[Redux 中文文档](http://cn.redux.js.org/index.html)
-[Redux-saga 中文文档](https://redux-saga-in-chinese.js.org/index.html)
-[React-Native学习指南](https://github.com/reactnativecn/react-native-guide)
+### React技术栈
+- [awesome-react](https://github.com/enaqx/awesome-react)
+- [React Router 中文文档](https://react-guide.github.io/react-router-cn/)
+- [Redux 中文文档](http://cn.redux.js.org/index.html)
+- [Redux-saga 中文文档](https://redux-saga-in-chinese.js.org/index.html)
+- [React-Native学习指南](https://github.com/reactnativecn/react-native-guide)
 
 
-[[译] 深入 React 高阶组件](https://mp.weixin.qq.com/s/dtlrOGTjoneOIiM5kB3XvQ)
-[Managing What’s in Your Head Using React Helmet](https://alligator.io/react/react-helmet/)
-[Using "window" the React Way with react-fns](https://alligator.io/react/declarative-html5-apis-react-fns/)
+- [[译] 深入 React 高阶组件](https://mp.weixin.qq.com/s/dtlrOGTjoneOIiM5kB3XvQ)
+- [Managing What’s in Your Head Using React Helmet](https://alligator.io/react/react-helmet/)
+- [Using "window" the React Way with react-fns](https://alligator.io/react/declarative-html5-apis-react-fns/)
 
 ### Vue技术栈
-[官网](https://vuejs.org/)
-[VUE 2.0教程](https://vuefe.cn/v2/guide/)
-
-[Vue技术内幕](http://hcysun.me/vue-design/)
-[VUE组件汇总](https://juejin.im/post/5af16a2cf265da0b8636353b)
-[vuejsexamples](https://vuejsexamples.com/)
+- [官网](https://vuejs.org/)
+- [VUE 2.0教程](https://vuefe.cn/v2/guide/)
+- [Vue技术内幕](http://hcysun.me/vue-design/)
+- [VUE组件汇总](https://juejin.im/post/5af16a2cf265da0b8636353b)
+- [vuejsexamples](https://vuejsexamples.com/)
 
 
 ### webpack
-[Webpack 4 配置最佳实践](https://juejin.im/post/5b304f1f51882574c72f19b0)
-[常用 webpack 配置统计结果](https://github.com/pigcan/blog/issues/5)
-[Webpack 构建性能优化探索](https://github.com/pigcan/blog/issues/1)
+- [Webpack 4 配置最佳实践](https://juejin.im/post/5b304f1f51882574c72f19b0)
+- [常用 webpack 配置统计结果](https://github.com/pigcan/blog/issues/5)
+- [Webpack 构建性能优化探索](https://github.com/pigcan/blog/issues/1)
+- [基于 webpack 的持久化缓存方案](https://github.com/pigcan/blog/issues/9)
+
 ### D3
-[d3indepth](http://d3indepth.com)
+- [d3indepth](http://d3indepth.com)
 
 ### 周刊
 - [FEX周刊](http://fex.baidu.com/)
@@ -109,56 +119,28 @@ https://developers.google.com/web/progressive-web-apps/
 
 [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
 [chrome-devtools](http://www.css88.com/doc/chrome-devtools/)
-
-[基于 webpack 的持久化缓存方案](https://github.com/pigcan/blog/issues/9)
-
-## Flutter
-[flutter-resources](https://github.com/awesome-tips/flutter-resources)
-
 [nuxtjs](https://zh.nuxtjs.org/)
 [MobX 中文文档](https://suprise.gitbooks.io/mobx-cn/content/)
-大牛博客：  
 
-阮一峰博客：www.ruanyifeng.com/blog/   
-愚人码头博客：www.css88.com/   
-张鑫旭博客：www.zhangxinxu.com/wordpress/
-勾三股四博客：jiongks.name/   
-前端博客：caibaojian.com/
-https://jakearchibald.com/
 
-[snandy](http://www.cnblogs.com/snandy/)
-
-前端社区：  
-
-前端网: www.qdfuns.com/  
-frontopen：www.frontopen.com/   
-w3cplus：www.w3cplus.com/  
-大前端：www.daqianduan.com/   
-伯乐在线：www.jobbole.com/   
-前端里：www.yyyweb.com/  
-爱思资源网：www.aseoe.com/  
-前端观察：www.qianduan.net/  
-前端开发俱乐部：www.html-js.cn/
-
-[Medium](https://medium.com/)
-[Hacker News](https://news.ycombinator.com/)
-[推酷](https://www.tuicool.com/mags)
+### Flutter
+- [flutter-resources](https://github.com/awesome-tips/flutter-resources)
 
 ### ICON
 
-https://material.io/icons/
-http://icons8.com/material-icons/
-https://materialdesignicons.com
-https://www.materialpalette.com/icons
-http://materializecss.com/icons.html
-https://www.flaticon.com/packs/material-design
-https://github.com/Templarian/MaterialDesign
-https://dribbble.com/shots/1938275-Icons-Free-PSD
-http://materialdesignblog.com/free-master-set-of-material-design-icons/
-https://dribbble.com/shots/1932096-Material-Design-Powerpoint-Keynote-icons
-https://www.producthunt.com/posts/material-design-icons
-https://cdnjs.com/libraries/material-design-icons
-https://www.iconfinder.com/iconsets/google-material-design-icons
+- https://material.io/icons/
+- http://icons8.com/material-icons/
+- https://materialdesignicons.com
+- https://www.materialpalette.com/icons
+- http://materializecss.com/icons.html
+- https://www.flaticon.com/packs/material-design
+- https://github.com/Templarian/MaterialDesign
+- https://dribbble.com/shots/1938275-Icons-Free-PSD
+- http://materialdesignblog.com/free-master-set-of-material-design-icons/
+- https://dribbble.com/shots/1932096-Material-Design-Powerpoint-Keynote-icons
+- https://www.producthunt.com/posts/material-design-icons
+- https://cdnjs.com/libraries/material-design-icons
+- https://www.iconfinder.com/iconsets/google-material-design-icons
 
 
 ### 设计
@@ -166,7 +148,7 @@ https://www.iconfinder.com/iconsets/google-material-design-icons
 [设计百宝箱](https://uirush.com/)
 [Dribbble](https://dribbble.com/)
 
-前端工具类汇总：  
+### 前端工具类汇总  
 
 前端开发仓库：code.ciaoca.com/  
 极客学院wiki：wiki.jikexueyuan.com/  
@@ -174,36 +156,42 @@ https://www.iconfinder.com/iconsets/google-material-design-icons
 Bootstrap中文网开源项目免费CDN：www.bootcdn.cn/
 Iconfont-阿里巴巴矢量图标库 http://iconfont.cn/
 
-程序员综合：  
 
-github：github.com/   
-开源中国：www.oschina.net/   
-CSDN：www.csdn.net/   
-博客园：www.cnblogs.com/ 
+### 教程/API文档：
+- Firefox技术文档:  developer.mozilla.org/zh-CN/  hacks.mozilla.org/
+- ECMAScript 6：es6.ruanyifeng.com/
+- Angularjs中文教程：www.apjs.net/
+- Requirejs中文:  www.requirejs.cn/  
+- node中文网：cnodejs.org/getstart 
+- express中文网：www.expressjs.com.cn/ 
+- less：less.bootcss.com/  
+- sass：sass.bootcss.com/   
+- coffeescript：coffee-script.org/  
+- pugjs（Jade）：github.com/pugjs/pug  
+- babeljs：babeljs.cn/  
+- grunt中文网：www.gruntjs.net/  
+- gulp中文网：www.gulpjs.com.cn/  
+- webpack中文网：webpackdoc.com/
 
-
-
-菜鸟教程：
-www.runoob.com  
-ECMAScript 6：es6.ruanyifeng.com/
-Angularjs中文教程：www.apjs.net/
-Requirejs中文:  www.requirejs.cn/  
-node中文网：cnodejs.org/getstart 
-express中文网：www.expressjs.com.cn/ 
-
-预编译、打包、构建工具：  
-
-less：less.bootcss.com/  
-sass：sass.bootcss.com/   
-coffeescript：coffee-script.org/  
-pugjs（Jade）：github.com/pugjs/pug  
-babeljs：babeljs.cn/  
-grunt中文网：www.gruntjs.net/  
-gulp中文网：www.gulpjs.com.cn/  
-webpack中文网：webpackdoc.com/
-
-前端团队博客:  
-
-腾讯前端团队:  www.alloyteam.com/  github.com/AlloyTeam/
-淘宝前端团队:  taobaofed.org/  https://github.com/taobaofed 
-Firefox技术文档:  developer.mozilla.org/zh-CN/  hacks.mozilla.org/
+### 前端博客/团队/社区
+- 阮一峰博客：www.ruanyifeng.com/blog/   
+- 愚人码头博客：www.css88.com/   
+- 张鑫旭博客：www.zhangxinxu.com/wordpress/
+- 勾三股四博客：jiongks.name/   
+- 前端博客：caibaojian.com/
+- https://jakearchibald.com/
+- [snandy](http://www.cnblogs.com/snandy/)
+- 腾讯前端团队:  www.alloyteam.com/  github.com/AlloyTeam/
+- 淘宝前端团队:  taobaofed.org/  https://github.com/taobaofed 
+- 前端网: www.qdfuns.com/  
+- frontopen：www.frontopen.com/   
+- w3cplus：www.w3cplus.com/  
+- 大前端：www.daqianduan.com/   
+- 伯乐在线：www.jobbole.com/   
+- 前端里：www.yyyweb.com/  
+- 爱思资源网：www.aseoe.com/  
+- 前端观察：www.qianduan.net/  
+- 前端开发俱乐部：www.html-js.cn/
+- [Medium](https://medium.com/)
+- [Hacker News](https://news.ycombinator.com/)
+- [推酷](https://www.tuicool.com/mags)
