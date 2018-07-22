@@ -125,7 +125,7 @@ https://developers.google.com/web/progressive-web-apps/
 
 ### Flutter
 - [flutter-resources](https://github.com/awesome-tips/flutter-resources)
-
+- [闲鱼技术/Flutter](https://www.yuque.com/xytech/flutter)
 ### ICON
 
 - https://material.io/icons/
