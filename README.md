@@ -103,6 +103,7 @@ https://developers.google.com/web/progressive-web-apps/
 
 
 ### webpack
+- [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
 - [Webpack 4 配置最佳实践](https://juejin.im/post/5b304f1f51882574c72f19b0)
 - [常用 webpack 配置统计结果](https://github.com/pigcan/blog/issues/5)
 - [Webpack 构建性能优化探索](https://github.com/pigcan/blog/issues/1)
@@ -172,7 +173,8 @@ Iconfont-阿里巴巴矢量图标库 http://iconfont.cn/
 - grunt中文网：www.gruntjs.net/  
 - gulp中文网：www.gulpjs.com.cn/  
 - webpack中文网：webpackdoc.com/
-
+- TypeScript 中文手册 https://typescript.bootcss.com/
+- 
 ### 前端博客/团队/社区
 - 阮一峰博客：www.ruanyifeng.com/blog/   
 - 愚人码头博客：www.css88.com/   
