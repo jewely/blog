@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <img src="" alt="">
-    <div>
-        <button>条码识别</button>
-        <button></button>
-        <button></button>
-    </div>
-</body>
+  <body>
+    <img id="barcode" src="imgs/th.jpg" alt="" />
+    <div><button onclick="getCode()">条码识别</button>implemented</div>
+  </body>
+  <script>
+    function getCode() {
+      let barcode = new BarcodeDetector();
+      let img = document.getElementById("barcode");
 
+      barcode.detect(img).then((res) => {
+        console.log(res);
+      });
+    }
+  </script>
 </html>
